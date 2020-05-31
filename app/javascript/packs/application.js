@@ -12,12 +12,13 @@ require("channels")
 import "bootstrap";
 
 // Internal imports
-import { plusSlides } from '../components/slideshow';
-import { currentSlide } from '../components/slideshow';
+// import { plusSlides } from '../components/slideshow';
+// import { currentSlide } from '../components/slideshow';
 import { showSlides } from '../components/slideshow';
 
-var slideIndex = 1;
 
 document.addEventListener('turbolinks:load', () => {
-  showSlides(slideIndex);
+  showSlides();
+  // currentSlide();
+  // plusSlides();
 });
