@@ -127,4 +127,24 @@ Quote.create(
   source: "https://youtu.be/HP99FI6APZU",
   year: 2013
 )
+# KOUDETAT - Les Muses par Oussama Ammar
+Quote.create(
+  description: "Aucune muse au monde n'a un pricing complexe.",
+  author: "Oussama Ammar",
+  source: "https://www.youtube.com/watch?v=ACPVLkRzSN0&t=2793s",
+  year: 2019
+)
+Quote.create(
+  description: "Aucune muse au monde n'a deux produits.",
+  author: "Oussama Ammar",
+  source: "https://www.youtube.com/watch?v=ACPVLkRzSN0&t=2793s",
+  year: 2019
+)
+Quote.create(
+  description: "Les plus belles muses ont toujours l'air de trucs à la con.",
+  author: "Oussama Ammar",
+  source: "https://www.youtube.com/watch?v=ACPVLkRzSN0&t=2793s",
+  year: 2019
+)
+
 puts "Finished"
