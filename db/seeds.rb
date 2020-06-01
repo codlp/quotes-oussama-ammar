@@ -2,6 +2,8 @@ Quote.destroy_all
 
 puts "Starting to seed"
 
+# Se confronter à la réalité entrepreneuriale - Gold-up
+
 Quote.create(
   description: "Soit tu fais de l’entrepreneuriat, soit tu fais de la politique. Tu ne peux pas faire les deux.",
   author: "Oussama Ammar",
@@ -68,5 +70,61 @@ Quote.create(
   source: "https://www.youtube.com/watch?v=Ho5TzMP6DxE&t=4327s",
   year: 2020
 )
+Quote.create(
+  description: "Vous dîtes SaaS dans la rue à Londres en ce moment et les mecs vous lancent des billets.",
+  author: "Oussama Ammar",
+  source: "https://www.youtube.com/watch?v=Ho5TzMP6DxE&t=4327s",
+  year: 2020
+)
 
+# Comment créer sa startup de [0] à [1]
+
+Quote.create(
+  description: "L'obstination c'est le drame de l'entrepreneuriat.",
+  author: "Oussama Ammar",
+  source: "https://youtu.be/HP99FI6APZU",
+  year: 2013
+)
+Quote.create(
+  description: "L'entrepreneuriat est un marathon qui se court en sprints de 100 mètres.",
+  author: "Oussama Ammar",
+  source: "https://youtu.be/HP99FI6APZU",
+  year: 2013
+)
+Quote.create(
+  description: "Vous êtes dans un monde où on peut vendre avant de fabriquer. Ça réduit de façon fondamentale les risques que vous prenez.",
+  author: "Oussama Ammar",
+  source: "https://youtu.be/HP99FI6APZU",
+  year: 2013
+)
+Quote.create(
+  description: "Success is obvious.",
+  author: "Oussama Ammar",
+  source: "https://youtu.be/HP99FI6APZU",
+  year: 2013
+)
+Quote.create(
+  description: "Tout ce qu'on mesure s'améliore.",
+  author: "Oussama Ammar",
+  source: "https://youtu.be/HP99FI6APZU",
+  year: 2013
+)
+Quote.create(
+  description: "Tout ce qui n'est pas une activité clé, vous l'externalisez.",
+  author: "Oussama Ammar",
+  source: "https://youtu.be/HP99FI6APZU",
+  year: 2013
+)
+Quote.create(
+  description: "Les business plans ça ne sert à rien.",
+  author: "Oussama Ammar",
+  source: "https://youtu.be/HP99FI6APZU",
+  year: 2013
+)
+Quote.create(
+  description: "C'est très contre-intuitif.",
+  author: "Oussama Ammar",
+  source: "https://youtu.be/HP99FI6APZU",
+  year: 2013
+)
 puts "Finished"
