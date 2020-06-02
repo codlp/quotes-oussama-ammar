@@ -128,6 +128,7 @@ Quote.create(
   year: 2013
 )
 # KOUDETAT - Les Muses par Oussama Ammar
+
 Quote.create(
   description: "Aucune muse au monde n'a un pricing complexe.",
   author: "Oussama Ammar",
@@ -145,6 +146,39 @@ Quote.create(
   author: "Oussama Ammar",
   source: "https://www.youtube.com/watch?v=ACPVLkRzSN0&t=2793s",
   year: 2019
+)
+
+# Comment trouver des idées de start-up
+
+Quote.create(
+  description: "Si vous ne gênez personne, c'est que ce vous faites ne compte pas.",
+  author: "Oussama Ammar",
+  source: "https://www.youtube.com/watch?v=SzYqtFgOXFo&t=2095s",
+  year: 2013
+)
+Quote.create(
+  description: "La bonne idée c'est toujours quelque chose qui doit choquer et étonner les gens.",
+  author: "Oussama Ammar",
+  source: "https://www.youtube.com/watch?v=SzYqtFgOXFo&t=2095s",
+  year: 2013
+)
+Quote.create(
+  description: "Y'a rien de pire que de s'attaquer à des problèmes insignifiants.",
+  author: "Oussama Ammar",
+  source: "https://www.youtube.com/watch?v=SzYqtFgOXFo&t=2095s",
+  year: 2013
+)
+Quote.create(
+  description: "On ne perd pas son temps en échouant, on perd son temps en ne faisant pas.",
+  author: "Oussama Ammar",
+  source: "https://www.youtube.com/watch?v=SzYqtFgOXFo&t=2095s",
+  year: 2013
+)
+Quote.create(
+  description: "Une bonne idée qui a l'air d'être une bonne idée est déjà attaquée par le monde de la grande entreprise.",
+  author: "Oussama Ammar",
+  source: "https://www.youtube.com/watch?v=SzYqtFgOXFo&t=2095s",
+  year: 2013
 )
 
 puts "Finished"
