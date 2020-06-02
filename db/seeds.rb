@@ -180,5 +180,11 @@ Quote.create(
   source: "https://www.youtube.com/watch?v=SzYqtFgOXFo&t=2095s",
   year: 2013
 )
+Quote.create(
+  description: "First mover advantage ça veut dire all the errors before everyone.",
+  author: "Oussama Ammar",
+  source: "https://www.youtube.com/watch?v=SzYqtFgOXFo&t=2095s",
+  year: 2013
+)
 
 puts "Finished"
