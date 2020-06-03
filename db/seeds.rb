@@ -76,6 +76,24 @@ Quote.create(
   source: "https://www.youtube.com/watch?v=Ho5TzMP6DxE&t=4327s",
   year: 2020
 )
+Quote.create(
+  description: "L'entrepreneuriat est la meilleure école pour arrêter d'avoir peur.",
+  author: "Oussama Ammar",
+  source: "https://www.youtube.com/watch?v=Ho5TzMP6DxE&t=4327s",
+  year: 2020
+)
+Quote.create(
+  description: "Si vous êtes nul pendant dix ans de façon assez consistante, vous devenez très bon.",
+  author: "Oussama Ammar",
+  source: "https://www.youtube.com/watch?v=Ho5TzMP6DxE&t=4327s",
+  year: 2020
+)
+Quote.create(
+  description: "Il suffit juste d'être nul pendant suffisamment longtemps, jusqu'au moment de passer le cap.",
+  author: "Oussama Ammar",
+  source: "https://www.youtube.com/watch?v=Ho5TzMP6DxE&t=4327s",
+  year: 2020
+)
 
 # Comment créer sa startup de [0] à [1]
 
