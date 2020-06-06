@@ -5,13 +5,19 @@ puts "Starting to seed"
 # Se confronter à la réalité entrepreneuriale - Gold-up
 
 Quote.create(
-  description: "Soit tu fais de l’entrepreneuriat, soit tu fais de la politique. Tu ne peux pas faire les deux.",
+  description: "L'entrepreneuriat est la meilleure école pour arrêter d'avoir peur.",
   author: "Oussama Ammar",
   source: "https://www.youtube.com/watch?v=Ho5TzMP6DxE&t=4327s",
-  year: 2019
+  year: 2020
 )
 Quote.create(
-  description: "Tu peux attendre que la société change ou tu peux créer ta propre société. Et des boîtes qui n’ont pas besoin d’argent et qui peuvent gagner une tonne de pognon il y en a des milliers à construire.",
+  description: "Vous dîtes SaaS dans la rue à Londres en ce moment et les mecs vous lancent des billets.",
+  author: "Oussama Ammar",
+  source: "https://www.youtube.com/watch?v=Ho5TzMP6DxE&t=4327s",
+  year: 2020
+)
+Quote.create(
+  description: "Soit tu fais de l’entrepreneuriat, soit tu fais de la politique. Tu ne peux pas faire les deux.",
   author: "Oussama Ammar",
   source: "https://www.youtube.com/watch?v=Ho5TzMP6DxE&t=4327s",
   year: 2019
@@ -71,18 +77,6 @@ Quote.create(
   year: 2020
 )
 Quote.create(
-  description: "Vous dîtes SaaS dans la rue à Londres en ce moment et les mecs vous lancent des billets.",
-  author: "Oussama Ammar",
-  source: "https://www.youtube.com/watch?v=Ho5TzMP6DxE&t=4327s",
-  year: 2020
-)
-Quote.create(
-  description: "L'entrepreneuriat est la meilleure école pour arrêter d'avoir peur.",
-  author: "Oussama Ammar",
-  source: "https://www.youtube.com/watch?v=Ho5TzMP6DxE&t=4327s",
-  year: 2020
-)
-Quote.create(
   description: "Si vous êtes nul pendant dix ans de façon assez consistante, vous devenez très bon.",
   author: "Oussama Ammar",
   source: "https://www.youtube.com/watch?v=Ho5TzMP6DxE&t=4327s",
@@ -93,6 +87,12 @@ Quote.create(
   author: "Oussama Ammar",
   source: "https://www.youtube.com/watch?v=Ho5TzMP6DxE&t=4327s",
   year: 2020
+)
+Quote.create(
+  description: "Tu peux attendre que la société change ou tu peux créer ta propre société. Et des boîtes qui n’ont pas besoin d’argent et qui peuvent gagner une tonne de pognon il y en a des milliers à construire.",
+  author: "Oussama Ammar",
+  source: "https://www.youtube.com/watch?v=Ho5TzMP6DxE&t=4327s",
+  year: 2019
 )
 
 # Comment créer sa startup de [0] à [1]
@@ -145,6 +145,7 @@ Quote.create(
   source: "https://youtu.be/HP99FI6APZU",
   year: 2013
 )
+
 # KOUDETAT - Les Muses par Oussama Ammar
 
 Quote.create(
@@ -203,6 +204,51 @@ Quote.create(
   author: "Oussama Ammar",
   source: "https://www.youtube.com/watch?v=SzYqtFgOXFo&t=2095s",
   year: 2013
+)
+
+# Oussama Ammar au Luxembourg
+
+Quote.create(
+  description: "Y'a deux grands moteurs qui aident les gens à devenir entrepreneurs : l'absence de choix et l'ego.",
+  author: "Oussama Ammar",
+  source: "https://www.youtube.com/watch?v=Vn-7FppaxGs&feature=youtu.be",
+  year: 2020
+)
+Quote.create(
+  description: "Si vous prenez le top 20 de The Family, dedans il doit y avoir 19 start-ups où franchement on se demande pourquoi ça marche.",
+  author: "Oussama Ammar",
+  source: "https://www.youtube.com/watch?v=Vn-7FppaxGs&feature=youtu.be",
+  year: 2020
+)
+Quote.create(
+  description: "La singularité ça commence quand on arrête de se comparer aux autres.",
+  author: "Oussama Ammar",
+  source: "https://www.youtube.com/watch?v=Vn-7FppaxGs&feature=youtu.be",
+  year: 2020
+)
+Quote.create(
+  description: "Si l'entrepreneuriat en France est tellement aidé par l'État, c'est parce que les entrepreneurs français passent leur temps à geindre et réclamer l'intervention de l'État.",
+  author: "Oussama Ammar",
+  source: "https://www.youtube.com/watch?v=Vn-7FppaxGs&feature=youtu.be",
+  year: 2020
+)
+Quote.create(
+  description: "Pourquoi Twitter c'est tellement efficace ? Parce qu'on est tous un peu mesquins. On a tous envie, en 140 caractères, de descendre quelqu'un.",
+  author: "Oussama Ammar",
+  source: "https://www.youtube.com/watch?v=Vn-7FppaxGs&feature=youtu.be",
+  year: 2020
+)
+Quote.create(
+  description: "Qui dans cette salle utilise Siri pour autre chose que le minuteur quand il cuisine ?",
+  author: "Oussama Ammar",
+  source: "https://www.youtube.com/watch?v=Vn-7FppaxGs&feature=youtu.be",
+  year: 2020
+)
+Quote.create(
+  description: "Mon métier c'est de voir qui sont les gens réellement et de trouver des technologies qui les aident à être un peu plus eux-mêmes.",
+  author: "Oussama Ammar",
+  source: "https://www.youtube.com/watch?v=Vn-7FppaxGs&feature=youtu.be",
+  year: 2020
 )
 
 puts "Finished"
