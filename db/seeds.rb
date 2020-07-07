@@ -16,6 +16,18 @@ Quote.create(
   source: "https://www.youtube.com/watch?v=Ho5TzMP6DxE&t=4327s",
   year: 2020
 )
+
+# Oussama Ammar - The Ultimate Punchline
+
+Quote.create(
+  description: "Tu peux faire une société scalable dans tout. Même ta mère elle peut scaler.",
+  author: "Oussama Ammar",
+  source: "https://www.youtube.com/watch?v=H8L6-b48rOc",
+  year: 2020
+)
+
+# Se confronter à la réalité entrepreneuriale - Gold-up
+
 Quote.create(
   description: "Soit tu fais de l’entrepreneuriat, soit tu fais de la politique. Tu ne peux pas faire les deux.",
   author: "Oussama Ammar",
